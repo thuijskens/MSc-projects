@@ -9,9 +9,6 @@ library(logistf) # for penalized logistic regression model
 library(dplyr) # for easy reshaping of data
 library(xtable) # convert tables to LaTeX
 
-# Set the working directory
-setwd('C:/Users/Nope not here/MSc in Applied Statistics/Statistical Methods/Logistic regression/Assessed practical')
-
 # Load helper functions for computation of ROC curve
 source('helperROCfunctions.R')
 
