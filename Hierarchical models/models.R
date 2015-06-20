@@ -5,9 +5,6 @@ library(nlme)
 library(ggplot2)
 library(gridExtra)
 
-# Set working directory
-setwd('C:/Users/Thomas/Documents/MSc in Applied Statistics/Statistical Methods/Hierarchical Models')
-
 # Load in the data
 schools <- data.table::fread('schools.txt', header = TRUE, sep = ",")
 schools <- as_data_frame(schools)
